@@ -1,5 +1,5 @@
 ###################
-CodeIgniter Microsoft Authentication Library Documentation
+CodeIgniter Microsoft Authentication Library Documentation - Includes corporate Microsoft email SSO login
 ###################
 This library is a modular solution for integrating Microsoft login and logout functionality into CodeIgniter applications. It provides methods for initiating Microsoft authentication, handling callback responses, and logging out users.
 
