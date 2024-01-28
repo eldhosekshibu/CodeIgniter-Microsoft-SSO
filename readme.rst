@@ -11,18 +11,27 @@ Installation
 •		Place the microsoft.php file in the application/config directory.
 
 ************
-Installation
+Usage
 ************
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+•	Loading the Library:
+Load the library in your controller.
+		
+	$this->load->library(‘microsoft_auth');
 
-*******
-License
-*******
+•	Loading the Config:
+	$this->load->config(‘microsoft');
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+•	Replace configuration with your app credentials      Replace app credentials in microsoft.php(config/microsoft.php)
+	
+	microsoft_auth_app_id: Your Microsoft App ID.
+	microsoft_auth_app_secret: Your Microsoft App Secret.
+	microsoft_auth_redirect_uri: The callback URL where users are redirected after login.
+	redirect_logout_uri: callback URL after logout
+
+	To register an application login to your Microsoft Azure account and register an app. You can go to your App registration page using this link.
+
+Link <https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade>`_.
 
 *********
 Resources
