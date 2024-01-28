@@ -35,11 +35,16 @@ class Welcome extends CI_Controller {
 
 	public function callback()
     {
-        $this->load->library('microsoft_auth');
         $userdata = $this->microsoft_auth->handleCallback();
-        print_r($userdata);
+        // print_r($userdata);
         // Use $userdata as needed
         // ...
+        if($userdata){
+        	echo "<p>Name : ".$userdata["displayName"]."</p>";
+        	echo "<p>Email : ".$userdata["mail"]."</p>";
+        }else{
+        	echo "Some thing went wrong. Please try again later.";
+        }
 
         // Example: Redirect to the next page
         // redirect('welcome/form');
@@ -47,7 +52,6 @@ class Welcome extends CI_Controller {
 
     public function logout()
     {
-        $this->load->library('microsoft_auth');
         $logout_url = $this->microsoft_auth->logout();
 
         // Redirect the user to the logout URL
