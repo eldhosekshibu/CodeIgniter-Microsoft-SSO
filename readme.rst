@@ -32,22 +32,10 @@ Load the library in your controller.
 	To register an application login to your Microsoft Azure account and register an app. You can go to your App registration page using this link: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade
 
 *********
-Resources
+Customise Welcome Controller and Views according to your logic
 *********
+Welcome controller has three functions - Login, callback function and Logout. Change the code according to your need.
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Notes
+•	This library is designed for Microsoft login and logout functionality. Adapt it as needed for your specific requirements.
+•	Check the official Microsoft Identity Platform documentation for the latest updates and best practices.
