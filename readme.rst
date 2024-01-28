@@ -29,9 +29,7 @@ Load the library in your controller.
 	microsoft_auth_redirect_uri: The callback URL where users are redirected after login.
 	redirect_logout_uri: callback URL after logout
 
-	To register an application login to your Microsoft Azure account and register an app. You can go to your App registration page using this link.
-
-Link <https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade>`_.
+	To register an application login to your Microsoft Azure account and register an app. You can go to your App registration page using this link: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade
 
 *********
 Resources
