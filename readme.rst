@@ -36,6 +36,8 @@ Customise Welcome Controller and Views according to your logic
 *********
 Welcome controller has three functions - Login, callback function and Logout. Change the code according to your need.
 
+*********
 Notes
+*********
 •	This library is designed for Microsoft login and logout functionality. Adapt it as needed for your specific requirements.
 •	Check the official Microsoft Identity Platform documentation for the latest updates and best practices.
